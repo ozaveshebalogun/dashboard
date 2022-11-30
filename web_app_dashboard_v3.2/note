@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Dashboard</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/normalize.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+
+
+
+
+                <div class="socia">
+                    
+
+        
+                
+                    
+
+                
+                    
+
+   
+                    <div class="plugins">
+                        <div class="plugin">
+                            <h3>MESSAGE USER</h3>
+                            <form>
+                                <input type="text" name="search" placeholder="Search for User">
+                                <textarea placeholder="Message for User">
+                                </textarea>
+                                <input type="submit" value="SEND">
+                            </form>
+                        </div>
+                        <div class="plugin setting">
+                        <h3>SETTINGS</h3>
+                                <label for="send">Send Email Notifications<input type="checkbox" id="send"></label>
+                                <br>
+                                <label for="set">Set Profile to Public <input type="checkbox" id="set"></label>
+                                <select aria-placeholder="Select Timezone" >
+                                    <option disabled>Select Timezone</option>
+                                    <option>UK</option>
+                                </select>
+                                <div class="saveCancel">
+                                    <button class="btn">SAVE</button>
+                                    <button class="btn">CANCEL</button>
+                                </div>
+                        </div>
+                    </div>
+               
+
+    <script src="script.js"></script>
+</body>
+</html>
