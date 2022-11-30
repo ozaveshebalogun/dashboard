@@ -430,7 +430,7 @@ select option:checked {
       justify-content: space-between;
   }
   .wrapper {
-    max-width: 1000px;
+    max-width: 1100px;
     height: 1000px;
     margin: 0 auto;
     grid-template-rows: repeat(2, 56px) auto;
